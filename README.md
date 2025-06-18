@@ -1,36 +1,75 @@
-# 🎯 Lead Management Dashboard (Power BI)
+# Sales Performance Dashboard
 
-## *Overview*
-The *Lead Management Dashboard* is a dynamic and interactive Power BI report designed to help businesses track, analyze, and manage their leads efficiently. This dashboard provides insights into lead distribution, popular courses, lead verification, priority status, and trends over time, enabling data-driven decision-making.
+A comprehensive **Power BI dashboard** providing insights into sales performance across regions, products, and time periods. The dashboard facilitates data-driven decision-making by summarizing key sales metrics and trends using interactive visuals and filters.
 
-## *Features*
-- *Lead Insights* – Displays the total number of leads, cities, and verification status  
-- *Lead Distribution* – Breakdown of students by campus and lead type  
-- *Popular Courses* – Visualization of the top 5 most chosen courses  
-- *Conversion Trends* – Lead stage analysis over time  
-- *Payment & Priority Status* – Tracks pending payments and lead priority levels  
-- *Filters & Drilldowns* – Dynamic filtering by *Medium, State, and Lead Type*  
+## 📌 Project Objective
 
-## *Tech Stack*
-- *Power BI* – Data visualization and interactive reporting  
-- *Data Source* – CSV file (uploaded in this repository)  
-- *Data Transformation* – Power Query & DAX  
-- *Deployment* – Power BI Service / Embedded Dashboard  
+To design a visually compelling and interactive dashboard that enables stakeholders to:
+- Monitor revenue performance over time
+- Evaluate product-wise and region-wise contribution to sales
+- Identify trends and patterns to support strategic planning
 
-## *Dataset*
-This project includes a dataset file named *lead-data.csv*, which contains sample data used in the dashboard. You can replace this file with your own dataset to customize the insights.
+## 🗂️ Repository Contents
 
-## *How to Use*
-1. *Download the Power BI Report (interview_lead_report.pbix file)* from the repository.
-2. Open it in *Power BI Desktop*.
-3. Connect your data source (lead-data.csv file).
-4. Refresh the data and explore the interactive visuals.
+- **`raw_data.xlsx`**  
+  Raw dataset used for creating the dashboard.
 
-## *Screenshot*
-![lead_report](https://github.com/user-attachments/assets/bb8f3f77-de9a-4aae-8b9f-f5a51e0cda50)
+- **`Power BI Dashboard`**  
+  Here is the overview of the Dashboard
 
-## *Contributing*
-Contributions are welcome! If you would like to improve the dashboard:
-- *Enhance Visualizations* – Add new charts, metrics, or KPIs.
-- *Optimize Data* – Improve data models and performance.
-- *Fix Bugs* – Address any issues related to data rendering or filters.
+  ![Screenshot 2025-06-13 115517](https://github.com/user-attachments/assets/98ca2a6d-82d9-4fd3-b32e-d471c6657457)  
+
+
+
+
+## 📊 Key Dashboard Metrics
+
+| Metric                     | Value     |
+|---------------------------|-----------|
+| **Total Revenue**         | 1.15M     |
+| **Total Margin**          | 229.93K   |
+| **Total Amount Sold**     | 124.67K   |
+| **Avg. Revenue/Product**  | 2.54K     |
+
+## 📈 Visual Highlights
+
+- **Revenue by Region**  
+  Highest revenue from **North East** (0.47M), followed by **South West** (0.38M).
+
+- **Quarterly Revenue Trends (2021)**  
+  Revenue grew steadily through Q3 and peaked in **Q4 (316K)**.
+
+- **Top-Performing Products**  
+  - **Bamboo Foam Couch**: 511.65K  
+  - **Marble Dining Table**: 272.13K  
+  - **7 Seater Sofa & Recliner**: 207.18K
+
+- **Interactive Slicers for Drill-Down Analysis**  
+  - Salesperson  
+  - Year/Quarter  
+  - Product Category
+
+## 🛠️ Tools & Technologies
+
+- **Microsoft Power BI** – For dashboard development and visualization  
+- **Microsoft Excel** – For raw data preparation and formatting
+
+## 🚀 How to Use This Project
+
+1. Clone or download this repository:
+2. Open the `raw_data.xlsx` to explore the dataset.
+3. Import the data into Power BI and recreate visuals using the layout in the provided screenshot.
+4. Apply filters to explore performance across different dimensions.
+
+## 📌 Business Value
+
+This dashboard empowers business leaders and analysts to:
+- Gain a quick snapshot of sales performance
+- Spot underperforming products or regions
+- Support decisions on product focus and market expansion
+
+## 📈 Future Enhancements
+
+- Integrate real-time data refresh via Power BI Service  
+- Add monthly breakdown and YoY comparisons  
+- Include customer segmentation and salesperson performance KPIs
